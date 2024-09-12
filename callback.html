@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Logging in</title>
+        <script src="src/script.js" type="module"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+</html>
+<body>
+    <h2><span style="color: #ffffff;">Logging in with Spotify...</span></h2>
+
+    <!-- Include the external JavaScript file -->
+    <script type="module">
+        import { handleSpotifyCallback } from './src/script.js';
+    
+        // Handle Spotify callback after login
+        handleSpotifyCallback();
+    </script>
+</body>

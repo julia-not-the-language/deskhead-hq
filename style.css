@@ -1,0 +1,46 @@
+/* General page styling */
+body {
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for h1 with a rounded box and shadow */
+h1 {
+  background-color: #0c140a;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin: 20px auto;
+  color: white;
+  font-family: 'Georgia', serif;
+}
+
+/* Other heading styles */
+h2, h3, h4, h5, h6 {
+  color: white;
+  font-family: 'Georgia', serif;
+}
+
+/* Button styling */
+button {
+  background-color: #e4c36b;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+}
+
+/* Optional button hover effect */
+button:hover {
+  background-color: #d0aa5f;
+}

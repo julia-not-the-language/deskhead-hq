@@ -1,1 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Spotify Profile</title>
+        <script src="src/script.js" type="module"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+</html>
+
+<h1>Welcome to Deskhead HQ</h1>
+<p style="font-size: 1.5em;"><span">Log in below to enter the Deskhead Universe.</span></p>
+
+<button id="login-btn">Login with Spotify</button>
+
+<script type="module">
+    import { loginToSpotify } from './src/script.js';
+
+    // Call the login function on button click
+    document.getElementById('login-btn').addEventListener('click', function() {
+        loginToSpotify();
+    });
+</script>
+
+<main>
+  <!-- Example of including an image -->
+  <img src="tfd_bell.png" width="600" height="600">
+</main>
